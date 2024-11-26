@@ -1,7 +1,10 @@
 # Hi, I'm Turki!
 
+👨‍💻 Software Developer | IT Enthusiast
 
-👨‍💻 Software Developer<br><br>🎓 Bachelor's Degree in Information Technology from Midoshen University<br><br>I’m a passionate Software Developer💻 I love building clean, efficient code and working on projects that solve real-world problems 🌍
+🎓 Bachelor’s in Information Technology (Midoshen University - Ongoing)
+
+I’m a dedicated and proactive software developer with a passion for creating innovative and efficient solutions. Currently pursuing my degree in Information Technology, I am constantly expanding my technical expertise and applying it to real-world challenges. I take pride in writing clean, maintainable code and enjoy working on projects that drive meaningful impact. 🌍💡
 
 
 # 🌐 Socials:
