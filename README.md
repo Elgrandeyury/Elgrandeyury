@@ -1,5 +1,6 @@
 # Hi, I'm Turki!
 👨‍💻 Software Developer
+
 🎓 Bachelor's Degree in Information Technology from Midoshen University
 
 I’m a passionate Software Developer💻
