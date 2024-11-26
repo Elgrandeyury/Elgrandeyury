@@ -1,6 +1,6 @@
 # Hi, I'm Turki!
 
-👨‍💻 Software Developer | IT Enthusiast
+👨‍💻 Software Developer | :floppy_disk:IT Enthusiast
 
 🎓 Bachelor’s in Information Technology (Midoshen University - Ongoing)
 
