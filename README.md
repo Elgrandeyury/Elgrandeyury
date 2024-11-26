@@ -1,2 +1,2 @@
 ## Hi there 👋
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Elgrandeyury GitHub stats](https://github-readme-stats.vercel.app/api?username=Elgrandeyury)](https://github.com/Elgrandeyury/github-readme-stats)
