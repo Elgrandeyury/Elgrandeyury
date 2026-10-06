@@ -1,0 +1,37 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="0.48" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0B1324"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="210" y1="66" x2="987" y2="249" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58A6FF"/>
+      <stop offset="0.5" stop-color="#7EE787"/>
+      <stop offset="1" stop-color="#A371F7"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <g opacity="0.25">
+    <path d="M0 76H1200M0 160H1200M0 244H1200" stroke="#30363D"/>
+    <path d="M150 0V320M350 0V320M550 0V320M750 0V320M950 0V320" stroke="#30363D"/>
+  </g>
+  <circle cx="998" cy="76" r="90" fill="#58A6FF" opacity="0.07" filter="url(#glow)"/>
+  <circle cx="1040" cy="246" r="82" fill="#A371F7" opacity="0.08" filter="url(#glow)"/>
+  <circle cx="890" cy="160" r="62" fill="#7EE787" opacity="0.06" filter="url(#glow)"/>
+  <g stroke="url(#accent)" stroke-width="2" opacity="0.75">
+    <path d="M820 83L932 126L1038 86L1090 165L1004 232L898 210L820 83Z"/>
+    <path d="M932 126L898 210M932 126L1004 232M1038 86L1004 232M820 83L1038 86"/>
+  </g>
+  <g fill="#0D1117" stroke="url(#accent)" stroke-width="3">
+    <circle cx="820" cy="83" r="9"/><circle cx="932" cy="126" r="9"/><circle cx="1038" cy="86" r="9"/><circle cx="1090" cy="165" r="9"/><circle cx="1004" cy="232" r="9"/><circle cx="898" cy="210" r="9"/>
+  </g>
+  <rect x="70" y="68" width="120" height="30" rx="15" fill="#161B22" stroke="#30363D"/>
+  <text x="130" y="89" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#7EE787">BUILD / OPERATE</text>
+  <text x="70" y="147" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="46" font-weight="700" fill="#F0F6FC">Systems across the stack.</text>
+  <text x="70" y="190" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" fill="#8B949E">Cloud • Infrastructure • Automation • Hardware</text>
+  <text x="70" y="238" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" fill="#58A6FF">AWS  /  Terraform  /  Kubernetes  /  Linux  /  Networks  /  IoT</text>
+</svg>
