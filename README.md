@@ -132,42 +132,40 @@ A security-focused pipeline built to show how delivery and security can be integ
 
 ---
 
-## 05 / Credentials
+## 05 / Certifications
+
+<div align="center">
 
 <table>
 <tr>
-<td width="46%" valign="top">
-
-### Certified
-
-**Google Certified Educator — Level 1**  
-**Google Certified Educator — Level 2**  
-**REGAL Education — Teaching Methodology Certification**
-
-</td>
-<td width="54%" valign="top">
-
-### Previously Certified
-
-<p align="left">
+<td align="center" width="25%">
   <a href="https://www.credly.com/org/amazon-web-services/badge/aws-certified-cloud-practitioner">
-    <img src="https://images.credly.com/size/150x150/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="115" alt="AWS Certified Cloud Practitioner badge" />
+    <img src="https://images.credly.com/size/150x150/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="112" alt="AWS Certified Cloud Practitioner badge" />
   </a>
-</p>
-
-**AWS Certified Cloud Practitioner**  
-<sub>Previously certified · foundational AWS cloud credential</sub>
-
-<br/>
-
-**CompTIA Security+**  
-<sub>Previously certified</sub>
-
-<sub>Status is shown clearly so the profile stays accurate.</sub>
-
+  <br/><b>AWS Certified Cloud Practitioner</b>
+  <br/><sub>Expired</sub>
+</td>
+<td align="center" width="25%">
+  <img src="https://img.shields.io/badge/CompTIA-Security%2B-EA1D2C?style=for-the-badge&logo=comptia&logoColor=white" alt="CompTIA Security+ badge" />
+  <br/><br/><b>CompTIA Security+</b>
+  <br/><sub>Expired</sub>
+</td>
+<td align="center" width="25%">
+  <img src="https://img.shields.io/badge/Google-Certified%20Educator%20L1-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Certified Educator Level 1 badge" />
+  <br/><br/><b>Google Certified Educator</b>
+  <br/><sub>Level 1</sub>
+</td>
+<td align="center" width="25%">
+  <img src="https://img.shields.io/badge/Google-Certified%20Educator%20L2-34A853?style=for-the-badge&logo=google&logoColor=white" alt="Google Certified Educator Level 2 badge" />
+  <br/><br/><b>Google Certified Educator</b>
+  <br/><sub>Level 2</sub>
 </td>
 </tr>
 </table>
+
+**REGAL Education — Teaching Methodology Certification**
+
+</div>
 
 ---
 
