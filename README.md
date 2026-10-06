@@ -136,7 +136,7 @@ A security-focused pipeline built to show how delivery and security can be integ
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="46%" valign="top">
 
 ### Certified
 
@@ -145,14 +145,25 @@ A security-focused pipeline built to show how delivery and security can be integ
 **REGAL Education — Teaching Methodology Certification**
 
 </td>
-<td width="50%" valign="top">
+<td width="54%" valign="top">
 
 ### Previously Certified
 
-**AWS Certified Cloud Practitioner**  
-**CompTIA Security+**
+<p align="left">
+  <a href="https://www.credly.com/org/amazon-web-services/badge/aws-certified-cloud-practitioner">
+    <img src="https://images.credly.com/size/150x150/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="115" alt="AWS Certified Cloud Practitioner badge" />
+  </a>
+</p>
 
-<sub>Listed as previously certified so the status is clear and accurate.</sub>
+**AWS Certified Cloud Practitioner**  
+<sub>Previously certified · foundational AWS cloud credential</sub>
+
+<br/>
+
+**CompTIA Security+**  
+<sub>Previously certified</sub>
+
+<sub>Status is shown clearly so the profile stays accurate.</sub>
 
 </td>
 </tr>
