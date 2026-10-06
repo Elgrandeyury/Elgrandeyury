@@ -1,37 +1,40 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0D1117"/>
-      <stop offset="0.48" stop-color="#111827"/>
-      <stop offset="1" stop-color="#0B1324"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="210" y1="66" x2="987" y2="249" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#58A6FF"/>
-      <stop offset="0.5" stop-color="#7EE787"/>
-      <stop offset="1" stop-color="#A371F7"/>
-    </linearGradient>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="9"/>
-    </filter>
-  </defs>
-  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
-  <g opacity="0.25">
-    <path d="M0 76H1200M0 160H1200M0 244H1200" stroke="#30363D"/>
-    <path d="M150 0V320M350 0V320M550 0V320M750 0V320M950 0V320" stroke="#30363D"/>
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="80" y1="20" x2="1120" y2="340" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#071018"/><stop offset="0.48" stop-color="#0B1320"/><stop offset="1" stop-color="#10111B"/>
+  </linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#00D9FF"/><stop offset="0.52" stop-color="#66F2C2"/><stop offset="1" stop-color="#D9B86C"/>
+  </linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="16"/></filter>
+</defs>
+<rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="358" rx="27" stroke="#273244"/>
+<g opacity="0.18" stroke="#2D3B50">
+  <path d="M0 72H1200M0 144H1200M0 216H1200M0 288H1200"/>
+  <path d="M120 0V360M240 0V360M360 0V360M480 0V360M600 0V360M720 0V360M840 0V360M960 0V360M1080 0V360"/>
+</g>
+<circle cx="1000" cy="185" r="124" fill="#00D9FF" opacity="0.05" filter="url(#blur)"/>
+<circle cx="895" cy="95" r="90" fill="#D9B86C" opacity="0.045" filter="url(#blur)"/>
+<g opacity="0.9">
+  <path d="M825 100L925 70L1038 115L1085 205L1005 278L892 255L818 182L825 100Z" stroke="url(#line)" stroke-width="2"/>
+  <path d="M825 100L892 255M925 70L818 182M925 70L1005 278M1038 115L892 255M1085 205L825 100M818 182L1005 278" stroke="#2A5770" stroke-width="1.2"/>
+  <g fill="#09111A" stroke="url(#line)" stroke-width="2.5">
+    <circle cx="825" cy="100" r="8"/><circle cx="925" cy="70" r="8"/><circle cx="1038" cy="115" r="8"/><circle cx="1085" cy="205" r="8"/><circle cx="1005" cy="278" r="8"/><circle cx="892" cy="255" r="8"/><circle cx="818" cy="182" r="8"/>
   </g>
-  <circle cx="998" cy="76" r="90" fill="#58A6FF" opacity="0.07" filter="url(#glow)"/>
-  <circle cx="1040" cy="246" r="82" fill="#A371F7" opacity="0.08" filter="url(#glow)"/>
-  <circle cx="890" cy="160" r="62" fill="#7EE787" opacity="0.06" filter="url(#glow)"/>
-  <g stroke="url(#accent)" stroke-width="2" opacity="0.75">
-    <path d="M820 83L932 126L1038 86L1090 165L1004 232L898 210L820 83Z"/>
-    <path d="M932 126L898 210M932 126L1004 232M1038 86L1004 232M820 83L1038 86"/>
-  </g>
-  <g fill="#0D1117" stroke="url(#accent)" stroke-width="3">
-    <circle cx="820" cy="83" r="9"/><circle cx="932" cy="126" r="9"/><circle cx="1038" cy="86" r="9"/><circle cx="1090" cy="165" r="9"/><circle cx="1004" cy="232" r="9"/><circle cx="898" cy="210" r="9"/>
-  </g>
-  <rect x="70" y="68" width="120" height="30" rx="15" fill="#161B22" stroke="#30363D"/>
-  <text x="130" y="89" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#7EE787">BUILD / OPERATE</text>
-  <text x="70" y="147" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="46" font-weight="700" fill="#F0F6FC">Systems across the stack.</text>
-  <text x="70" y="190" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" fill="#8B949E">Cloud • Infrastructure • Automation • Hardware</text>
-  <text x="70" y="238" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" fill="#58A6FF">AWS  /  Terraform  /  Kubernetes  /  Linux  /  Networks  /  IoT</text>
+</g>
+<rect x="62" y="54" width="214" height="30" rx="7" fill="#0D1723" stroke="#294159"/>
+<circle cx="81" cy="69" r="4" fill="#66F2C2"/>
+<text x="94" y="74" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#9FB5C8">SYSTEMS ENGINEERING / 01</text>
+<text x="62" y="152" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="52" font-weight="700" fill="#F4F7FB">Cloud to edge.</text>
+<text x="62" y="205" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="52" font-weight="700" fill="#F4F7FB">Software to hardware.</text>
+<text x="62" y="250" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" fill="#91A2B7">I build infrastructure, automate systems, and connect digital platforms to physical environments.</text>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">
+  <text x="62" y="309" fill="#00D9FF">AWS</text><text x="114" y="309" fill="#42566D">/</text>
+  <text x="132" y="309" fill="#66F2C2">TERRAFORM</text><text x="216" y="309" fill="#42566D">/</text>
+  <text x="234" y="309" fill="#00D9FF">K8S</text><text x="270" y="309" fill="#42566D">/</text>
+  <text x="288" y="309" fill="#66F2C2">LINUX</text><text x="339" y="309" fill="#42566D">/</text>
+  <text x="357" y="309" fill="#D9B86C">NETWORKS</text><text x="434" y="309" fill="#42566D">/</text>
+  <text x="452" y="309" fill="#D9B86C">ROBOTICS</text>
+</g>
 </svg>
