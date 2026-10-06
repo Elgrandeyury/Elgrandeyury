@@ -29,15 +29,15 @@ What interests me most is the point where those layers meet — when software ha
 <tr>
 <td width="50%" valign="top">
 
-### ⛽ Smart / Robotic Fueling System
+### ⛽ [Smart / Robotic Fueling System](https://github.com/Elgrandeyury/smart-robotic-fueling-system)
 
 **IoT · Embedded · Automation · Backend / Cloud**
 
-A smart fueling platform built around **RFID-based vehicle identification and authorization**, embedded control, sensing, automated dispensing logic, transaction logging, and software/cloud integration.
+A public engineering case study exploring how embedded systems, automation, software, and cloud services can support a smarter and more connected fueling workflow.
 
 This is the project that best represents how I like to work: **software + infrastructure + hardware + a real operational problem**.
 
-`RFID` `Sensors` `Embedded Control` `Automation` `IoT`
+`Embedded Systems` `Automation` `IoT` `Cloud` `Robotics`
 
 </td>
 <td width="50%" valign="top">
