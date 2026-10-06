@@ -1,0 +1,20 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430"><stop stop-color="#08111B"/><stop offset="1" stop-color="#0E1624"/></linearGradient>
+ <linearGradient id="a" x1="120" y1="90" x2="1080" y2="330"><stop stop-color="#00D9FF"/><stop offset="0.5" stop-color="#66F2C2"/><stop offset="1" stop-color="#D9B86C"/></linearGradient>
+</defs>
+<rect width="1200" height="430" rx="26" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="428" rx="25" stroke="#253246"/>
+<text x="55" y="62" font-family="Inter,Segoe UI,Arial" font-size="25" font-weight="700" fill="#F4F7FB">ENGINEERING SYSTEM MAP</text>
+<text x="55" y="89" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#7F91A8">FROM CLOUD CONTROL PLANES TO PHYSICAL SYSTEMS</text>
+<path d="M170 220H1030" stroke="#263A50" stroke-width="2"/>
+<path d="M170 220H1030" stroke="url(#a)" stroke-width="2" stroke-dasharray="8 10"/>
+<g font-family="Inter,Segoe UI,Arial" text-anchor="middle">
+ <g><rect x="70" y="145" width="210" height="150" rx="18" fill="#0D1723" stroke="#294159"/><text x="175" y="185" font-size="18" font-weight="700" fill="#F4F7FB">CLOUD</text><text x="175" y="220" font-size="14" fill="#9BAFC2">AWS • VPC • IAM</text><text x="175" y="245" font-size="14" fill="#9BAFC2">EC2 • RDS • S3</text><text x="175" y="270" font-size="14" fill="#00D9FF">design / deploy</text></g>
+ <g><rect x="330" y="145" width="210" height="150" rx="18" fill="#0D1723" stroke="#294159"/><text x="435" y="185" font-size="18" font-weight="700" fill="#F4F7FB">PLATFORM</text><text x="435" y="220" font-size="14" fill="#9BAFC2">Terraform • Docker</text><text x="435" y="245" font-size="14" fill="#9BAFC2">Kubernetes • CI/CD</text><text x="435" y="270" font-size="14" fill="#66F2C2">automate / ship</text></g>
+ <g><rect x="590" y="145" width="210" height="150" rx="18" fill="#0D1723" stroke="#294159"/><text x="695" y="185" font-size="18" font-weight="700" fill="#F4F7FB">SYSTEMS</text><text x="695" y="220" font-size="14" fill="#9BAFC2">Linux • Windows</text><text x="695" y="245" font-size="14" fill="#9BAFC2">DNS • DHCP • VLAN</text><text x="695" y="270" font-size="14" fill="#00D9FF">operate / secure</text></g>
+ <g><rect x="850" y="145" width="280" height="150" rx="18" fill="#0D1723" stroke="#4D4330"/><text x="990" y="185" font-size="18" font-weight="700" fill="#F4F7FB">PHYSICAL LAYER</text><text x="990" y="220" font-size="14" fill="#9BAFC2">RFID • Sensors • ESP32</text><text x="990" y="245" font-size="14" fill="#9BAFC2">Robotics • Automation</text><text x="990" y="270" font-size="14" fill="#D9B86C">sense / control</text></g>
+</g>
+<g fill="#09121C" stroke="url(#a)" stroke-width="2"><circle cx="305" cy="220" r="7"/><circle cx="565" cy="220" r="7"/><circle cx="825" cy="220" r="7"/></g>
+<text x="55" y="375" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#8598AE">connect → automate → observe → improve</text>
+</svg>
