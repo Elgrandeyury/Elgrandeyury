@@ -13,20 +13,55 @@
 
 ## 01 / Engineering Profile
 
-I work across the layers that usually get separated into different jobs: **cloud, infrastructure, networks, automation, and physical systems**.
+I work across **cloud, infrastructure, platform engineering, automation, security, and physical systems**.
 
-My background includes AWS cloud environments, Linux and Windows infrastructure, Docker/Kubernetes workloads, Terraform, CI/CD, networking, technical lab infrastructure, robotics, IoT, and embedded systems.
+My background includes AWS environments, Linux and Windows infrastructure, Docker/Kubernetes workloads, Terraform, CI/CD, networking, technical lab infrastructure, robotics, IoT, and embedded systems.
 
-What interests me most is the point where those layers meet — when software has to control infrastructure, infrastructure has to support real operations, and hardware has to behave reliably in the physical world.
+My current direction is focused on **Cloud / DevOps / DevSecOps**: building infrastructure, operating workloads, and adding security controls directly into the delivery path.
 
 <img src="./assets/system-map.svg" width="100%" alt="Engineering system map" />
 
 ---
 
-## 02 / Selected Systems
+## 02 / Flagship Projects
 
 <table>
 <tr>
+<td width="50%" valign="top">
+
+### 🛡️ [AegisScan](https://github.com/Elgrandeyury/aegisscan-cloud-security)
+
+**Python · DevSecOps · Terraform · Kubernetes · SARIF**
+
+A Python CLI security scanner I built for Terraform and Kubernetes configuration. It uses a first-party rule engine with **31 AWS/Kubernetes checks**, Aegis rule IDs, severity filtering, suppressions, security scoring, JSON/HTML/SARIF reporting, and CI security gates.
+
+`Python` `Terraform` `Kubernetes` `DevSecOps` `SARIF`
+
+</td>
+<td width="50%" valign="top">
+
+### ☁️ [AWS Terraform Infrastructure](https://github.com/Elgrandeyury/aws-terraform-infrastructure)
+
+**AWS · Terraform · Infrastructure as Code · CI**
+
+Production-style AWS architecture covering networking, private application tiers, load balancing, compute autoscaling, RDS, EFS, IAM/SSM, monitoring, encryption, remote state, and automated Terraform validation. AegisScan is integrated into the repository CI.
+
+`AWS` `Terraform` `VPC` `RDS` `EC2` `GitHub Actions`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ☸️ [Kubernetes CI/CD Platform](https://github.com/Elgrandeyury/kubernetes-cicd-platform)
+
+**Kubernetes · Docker · Helm · Kustomize · CI/CD**
+
+A production-style container delivery platform with hardened workloads, environment overlays, Helm packaging, autoscaling, ingress, probes, disruption controls, network policy, container/config scanning, release automation, and AegisScan integration.
+
+`Kubernetes` `Docker` `Helm` `Kustomize` `Trivy` `GitHub Actions`
+
+</td>
 <td width="50%" valign="top">
 
 ### ⛽ [Smart / Robotic Fueling System](https://github.com/Elgrandeyury/smart-robotic-fueling-system)
@@ -35,46 +70,7 @@ What interests me most is the point where those layers meet — when software ha
 
 A public engineering case study exploring how embedded systems, automation, software, and cloud services can support a smarter and more connected fueling workflow.
 
-This is the project that best represents how I like to work: **software + infrastructure + hardware + a real operational problem**.
-
 `Embedded Systems` `Automation` `IoT` `Cloud` `Robotics`
-
-</td>
-<td width="50%" valign="top">
-
-### 🧰 Infrastructure Home Labs
-
-**Servers · Networking · Virtualization · Self-Hosting**
-
-I use two home-lab environments to go beyond tutorials and work directly with infrastructure: operating systems, services, networking, storage, virtualization, troubleshooting, administration, and system behavior.
-
-The labs are where I test, break, rebuild, and document infrastructure before turning the lessons into cleaner production-style projects.
-
-`Linux` `Windows Server` `Networking` `Virtualization` `Storage`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ☁️ AWS Infrastructure & Delivery
-
-**AWS · IaC · Containers · CI/CD**
-
-Hands-on work with AWS environments involving **EC2, S3, RDS, VPC, IAM, subnets, security groups, and Linux servers**, alongside containerized workloads, Git/GitHub, CI/CD, Terraform, and monitoring/logging.
-
-`AWS` `Terraform` `Docker` `Kubernetes` `GitHub Actions`
-
-</td>
-<td width="50%" valign="top">
-
-### 🤖 Robotics & Physical Computing
-
-**Embedded · Robotics · Sensors · Control**
-
-Built and supported technical systems using **Arduino, ESP32, Raspberry Pi, sensors, drones, robotics, and humanoid platforms**, including programming, integration, troubleshooting, and lab deployment.
-
-`Arduino` `ESP32` `Raspberry Pi` `Python` `C` `Robotics`
 
 </td>
 </tr>
@@ -93,6 +89,11 @@ Built and supported technical systems using **Arduino, ESP32, Raspberry Pi, sens
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
+### SECURITY / DEVSECOPS
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=aqua&logoColor=white)
+![Security](https://img.shields.io/badge/IaC_Security-111827?style=for-the-badge&logo=shield&logoColor=white)
+
 ### SYSTEMS / NETWORK
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?style=for-the-badge&logo=windows&logoColor=white)
@@ -101,7 +102,6 @@ Built and supported technical systems using **Arduino, ESP32, Raspberry Pi, sens
 ![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
 
 ### BUILD / AUTOMATE / CONTROL
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Arduino](https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white)
@@ -111,24 +111,18 @@ Built and supported technical systems using **Arduino, ESP32, Raspberry Pi, sens
 
 ---
 
-## 04 / What I'm Building Now
+## 04 / Engineering Story
 
-> The goal of this account is not to collect tutorial repositories. It is to become a **proof-of-work engineering portfolio**.
+> **Build infrastructure → deploy workloads → secure the delivery path.**
 
-### `01` Production-Style AWS Platform
-**Terraform → VPC → compute → database → IAM/security → monitoring**
-
-A complete AWS environment documented like a real infrastructure project: architecture, IaC, deployment, operations, tradeoffs, and failure handling.
+### `01` AWS Infrastructure
+Terraform-based cloud architecture with networking, compute, data, identity, encryption, monitoring, and CI validation.
 
 ### `02` Kubernetes Delivery Platform
-**Container → CI/CD → Kubernetes → observability**
+Containerized application delivery with Kubernetes, Helm, environment overlays, security controls, and release workflows.
 
-A deployment platform that demonstrates the full delivery path instead of only a Kubernetes manifest.
-
-### `03` Cloud DevSecOps Pipeline
-**IaC scanning → container security → CI/CD controls → cloud security**
-
-A security-focused pipeline built to show how delivery and security can be integrated rather than treated as separate work.
+### `03` AegisScan
+My own IaC security scanner connecting both projects through Terraform/Kubernetes checks, security scoring, reports, and CI gates.
 
 ---
 
@@ -186,8 +180,8 @@ A security-focused pipeline built to show how delivery and security can be integ
 
 <div align="center">
 
-### Cloud → Platform → Systems → Physical World
+### Cloud → Platform → Security → Systems → Physical World
 
-<sub>Build it. Operate it. Understand what happens between the layers.</sub>
+<sub>Build it. Operate it. Secure it. Understand what happens between the layers.</sub>
 
 </div>
